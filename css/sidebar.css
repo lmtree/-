@@ -1,0 +1,164 @@
+/*工具栏*/
+.sbv0{
+    width: 35px;
+    background-color: #2b2b2b;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.sbv0 span.top{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../img/top.gif")center center no-repeat;
+}
+.sbv0 span.top div{
+    width: 100px;height: 35px;
+    background-color: #2b2b2b;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+}
+.sbv0 span.top:hover{
+    background-color: #ed145b;
+}
+.sbv0 span.ew{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    bottom: 35px;
+    right: 0;
+    background: url("../img/ew.gif")center center no-repeat;
+}
+.sbv0 span.ew div {
+    width: 100px;height: 35px;
+    background-color: #2b2b2b;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+}
+.sbv0 span.ew:hover{
+    background-color: #ed145b;
+}
+.sbv0 span.tx{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background: url("../img/tx.gif")center center no-repeat;
+
+}
+.sbv0 span.tx div{
+   width: 100px;height: 35px;
+    background-color: #2b2b2b;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+}
+.sbv0 span.tx:hover{
+    background: url("../img/tx1.gif")center center no-repeat;
+    background-color: #ed145b;
+}
+.sbv0 span.user{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    top:115px;
+    right: 0;
+    background: url("../img/user.gif")center center no-repeat;
+}
+.sbv0 span.user:hover{
+    background: url("../img/ueser1.gif")center center no-repeat;
+    background-color: #ed145b;
+}
+.sbv0 span.gg{
+    display:block;
+    width: 35px;height: 115px;
+    position: absolute;
+    top:150px;
+    right: 0;
+    background: url("../img/gwc.gif")top center no-repeat;
+}
+.sbv0  span.gg:hover {
+    background: url("../img/gwc2.gif")top center no-repeat;
+    background-color: #ed145b;
+}
+
+.sbv0 span.gg p.gz{
+    width: 35px;height: 45px;
+    display: block;
+    margin-top: 30px;
+    /*position: absolute;*/
+    /*top:185px;*/
+    /*right: 0;*/
+    font-size: 13px;text-align: center;color: white;
+}
+.sbv0 span.gg p.gs{
+    width: 25px;height: 25px;border-radius: 50%;
+    margin:0 auto;margin-top: 9px;
+    background-color: #ed145b;text-align: center;line-height: 25px;
+    /*!*display: block;*!*/
+    /*!*position: absolute;*!*/
+    /*!*top:232px;*!*/
+    /*right: 0;*/
+    font-size: 20px;color: white;
+}
+.sbv0 span.gg p.gs:hover {
+    background-color:white;color:#ed145b;
+}
+.sbv0 span.qd{
+    width: 35px;height:35px;
+    display: block;
+    position: absolute;
+    top:267px;
+    right: 0;
+    background: url("../img/qd.gif")center center no-repeat;
+}
+.sbv0 span.qd:hover {
+    background: url("../img/qd1.gif") center center no-repeat;
+    background-color: #ed145b;
+}
+.sbv0 span.jz{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    top:302px;
+    right: 0;
+    background: url("../img/jz.gif")center center no-repeat;
+}
+.sbv0 span.jz:hover {
+    background: url("../img/jz1.gif") center center no-repeat;
+    background-color: #ed145b;
+}
+.sbv0 span.xx{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    top:337px;
+    right: 0;
+    color: white;font-size: 20px;line-height: 35px;
+    text-align: center;
+    background: url("../img/star.png")center center no-repeat;
+}
+.sbv0 span.xx:hover {
+    background-color: #ed145b;
+}
+.sbv0 span.cz{
+    width: 35px;height: 35px;
+    display: block;
+    position: absolute;
+    top:372px;
+    right: 0;
+    background: url("../img/chongzhi.png")center center no-repeat;
+}
+.sbv0 span.cz:hover {
+    background-color: #ed145b;
+}

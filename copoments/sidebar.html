@@ -1,0 +1,45 @@
+<!--工具栏-->
+<script src="../jquery.min.js"></script>
+<link rel="stylesheet" href="../css/sidebar.css">
+<link rel="stylesheet" type="text/css" href="../vendors/fond-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+<div class="sbv0">
+   <span class="top">
+       <div>111</div>
+   </span>
+   <span class="ew">
+       <div>222</div>
+   </span>
+    <span class="tx">
+        <div>shj</div>
+    </span>
+    <span class="user"></span>
+ <span class="gg">
+    <p class="gz">购<br>物<br>车</p>
+    <p class="gs">0</p>
+  </span>
+    <span class="qd"></span>
+    <span class="jz"></span>
+    <span class="xx"></span>
+    <span class="cz"></span>
+</div>
+<script>
+    $('span.tx div').hide();
+    $('span.tx').hover(function () {
+      $(this).find('div').show();
+    },function () {
+        $(this).find('div').hide();
+    });
+    $('span.ew div').hide();
+    $('span.ew').hover(function () {
+        $(this).find('div').show()
+    },function () {
+        $(this).find('div').hide()
+    });
+    $('span.top div').hide();
+    $('span.top').hover(function () {
+        $(this).find('div').show();
+    },function () {
+        $(this).find('div').hide();
+    });
+</script>
+<!--工具栏-->
